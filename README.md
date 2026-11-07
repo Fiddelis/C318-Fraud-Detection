@@ -21,16 +21,6 @@ kaggle datasets download -d umuttuygurr/e-commerce-fraud-detection-dataset -p da
 
 Os dados não são versionados no Git (ver `.gitignore`).
 
-## Escopo deste repositório
-
-| Área | Responsabilidade |
-| --- | --- |
-| Inicialização do projeto | Estrutura, dependências e organização do código |
-| Limpeza dos dados | Tratamento de nulos, inconsistências, duplicatas e outliers |
-| Identificação de features | Análise exploratória e seleção dos atributos mais relevantes |
-
-As etapas de modelagem, treino e deploy podem ser integradas neste mesmo repositório conforme o andamento do trabalho em equipe.
-
 ## Estrutura
 
 ```text
