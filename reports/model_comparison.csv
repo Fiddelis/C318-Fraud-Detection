@@ -1,0 +1,7 @@
+split,model,pr_auc,roc_auc,threshold,precision,recall,f1,tp,fp,fn,tn
+validation,hist_gradient_boosting,0.8766,0.9792,0.9399,0.9042,0.7922,0.8445,774.0,82.0,203.0,43895.0
+validation,random_forest,0.8758,0.9789,0.4953,0.9661,0.7595,0.8504,742.0,26.0,235.0,43951.0
+test,random_forest,0.867,0.9787,0.4953,0.953,0.7472,0.8376,730.0,36.0,247.0,43942.0
+test,hist_gradient_boosting,0.8612,0.9777,0.9399,0.891,0.7697,0.8259,752.0,92.0,225.0,43886.0
+test_no_user_aggregates,random_forest,0.839,0.9736,0.3652,0.9013,0.7288,0.8059,712.0,78.0,265.0,43900.0
+test_no_user_aggregates,hist_gradient_boosting,0.8351,0.9756,0.9555,0.9024,0.7001,0.7885,684.0,74.0,293.0,43904.0
